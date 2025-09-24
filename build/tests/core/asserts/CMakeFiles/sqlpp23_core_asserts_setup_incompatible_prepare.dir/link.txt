@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_asserts_setup_incompatible_prepare.dir/link.d CMakeFiles/sqlpp23_core_asserts_setup_incompatible_prepare.dir/incompatible_prepare.cpp.o -o sqlpp23_core_asserts_setup_incompatible_prepare

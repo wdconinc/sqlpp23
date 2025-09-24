@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_mysql_usage_aggregate_function_max.dir/link.d CMakeFiles/sqlpp23_mysql_usage_aggregate_function_max.dir/max.cpp.o -o sqlpp23_mysql_usage_aggregate_function_max  /usr/lib/x86_64-linux-gnu/libmysqlclient.so

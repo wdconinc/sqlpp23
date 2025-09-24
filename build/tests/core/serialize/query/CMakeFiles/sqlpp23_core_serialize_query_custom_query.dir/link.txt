@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_query_custom_query.dir/link.d CMakeFiles/sqlpp23_core_serialize_query_custom_query.dir/custom_query.cpp.o -o sqlpp23_core_serialize_query_custom_query

@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_basic_verbatim_table.dir/link.d CMakeFiles/sqlpp23_core_serialize_basic_verbatim_table.dir/verbatim_table.cpp.o -o sqlpp23_core_serialize_basic_verbatim_table

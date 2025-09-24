@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_postgresql_serialize_function_flatten.dir/link.d CMakeFiles/sqlpp23_postgresql_serialize_function_flatten.dir/flatten.cpp.o -o sqlpp23_postgresql_serialize_function_flatten  /usr/lib/x86_64-linux-gnu/libpq.so

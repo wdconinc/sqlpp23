@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_mysql_serialize_data_types_text.dir/link.d CMakeFiles/sqlpp23_mysql_serialize_data_types_text.dir/text.cpp.o -o sqlpp23_mysql_serialize_data_types_text  /usr/lib/x86_64-linux-gnu/libmysqlclient.so
