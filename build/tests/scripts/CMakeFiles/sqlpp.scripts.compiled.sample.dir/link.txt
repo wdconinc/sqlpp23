@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp.scripts.compiled.sample.dir/link.d CMakeFiles/sqlpp.scripts.compiled.sample.dir/sample.cpp.o -o sqlpp.scripts.compiled.sample

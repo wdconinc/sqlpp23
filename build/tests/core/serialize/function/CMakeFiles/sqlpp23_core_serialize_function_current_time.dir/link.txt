@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_function_current_time.dir/link.d CMakeFiles/sqlpp23_core_serialize_function_current_time.dir/current_time.cpp.o -o sqlpp23_core_serialize_function_current_time

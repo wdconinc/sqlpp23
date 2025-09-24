@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_types_basic_table_as.dir/link.d CMakeFiles/sqlpp23_core_types_basic_table_as.dir/table_as.cpp.o -o sqlpp23_core_types_basic_table_as

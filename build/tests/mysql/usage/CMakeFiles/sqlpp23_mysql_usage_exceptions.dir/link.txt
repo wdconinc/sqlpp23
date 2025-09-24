@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_mysql_usage_exceptions.dir/link.d CMakeFiles/sqlpp23_mysql_usage_exceptions.dir/exceptions.cpp.o -o sqlpp23_mysql_usage_exceptions  /usr/lib/x86_64-linux-gnu/libmysqlclient.so

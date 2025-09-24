@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/runner/work/sqlpp23/sqlpp23/tests/core/usage
+# Build directory: /home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[sqlpp23.core.usage.CustomQuery]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "CustomQuery")
+set_tests_properties([=[sqlpp23.core.usage.CustomQuery]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.DateTime]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "DateTime")
+set_tests_properties([=[sqlpp23.core.usage.DateTime]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.DateTimeParser]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "DateTimeParser")
+set_tests_properties([=[sqlpp23.core.usage.DateTimeParser]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Interpret]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Interpret")
+set_tests_properties([=[sqlpp23.core.usage.Interpret]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Insert]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Insert")
+set_tests_properties([=[sqlpp23.core.usage.Insert]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.delete_from]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "delete_from")
+set_tests_properties([=[sqlpp23.core.usage.delete_from]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Update]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Update")
+set_tests_properties([=[sqlpp23.core.usage.Update]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Select]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Select")
+set_tests_properties([=[sqlpp23.core.usage.Select]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.SelectType]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "SelectType")
+set_tests_properties([=[sqlpp23.core.usage.SelectType]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Function]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Function")
+set_tests_properties([=[sqlpp23.core.usage.Function]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Prepared]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Prepared")
+set_tests_properties([=[sqlpp23.core.usage.Prepared]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Minimalistic]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Minimalistic")
+set_tests_properties([=[sqlpp23.core.usage.Minimalistic]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Result]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Result")
+set_tests_properties([=[sqlpp23.core.usage.Result]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.Union]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "Union")
+set_tests_properties([=[sqlpp23.core.usage.Union]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+add_test([=[sqlpp23.core.usage.With]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/usage/sqlpp23_core_tests" "With")
+set_tests_properties([=[sqlpp23.core.usage.With]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;53;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/usage/CMakeLists.txt;0;")
+subdirs("aggregate_function")
+subdirs("statement")

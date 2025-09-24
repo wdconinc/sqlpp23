@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_clause_update_set.dir/link.d CMakeFiles/sqlpp23_core_serialize_clause_update_set.dir/update_set.cpp.o -o sqlpp23_core_serialize_clause_update_set

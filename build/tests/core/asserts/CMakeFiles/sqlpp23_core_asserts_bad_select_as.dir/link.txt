@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_asserts_bad_select_as.dir/link.d CMakeFiles/sqlpp23_core_asserts_bad_select_as.dir/bad_select_as.cpp.o -o sqlpp23_core_asserts_bad_select_as

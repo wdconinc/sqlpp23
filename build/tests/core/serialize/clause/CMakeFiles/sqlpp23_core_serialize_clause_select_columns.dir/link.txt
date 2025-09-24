@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_clause_select_columns.dir/link.d CMakeFiles/sqlpp23_core_serialize_clause_select_columns.dir/select_columns.cpp.o -o sqlpp23_core_serialize_clause_select_columns

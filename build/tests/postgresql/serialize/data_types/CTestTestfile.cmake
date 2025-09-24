@@ -1,0 +1,16 @@
+# CMake generated Testfile for 
+# Source directory: /home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types
+# Build directory: /home/runner/work/sqlpp23/sqlpp23/build/tests/postgresql/serialize/data_types
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[sqlpp23_postgresql_serialize_data_types_blob]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/postgresql/serialize/data_types/sqlpp23_postgresql_serialize_data_types_blob")
+set_tests_properties([=[sqlpp23_postgresql_serialize_data_types_blob]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;32;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;0;")
+add_test([=[sqlpp23_postgresql_serialize_data_types_date]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/postgresql/serialize/data_types/sqlpp23_postgresql_serialize_data_types_date")
+set_tests_properties([=[sqlpp23_postgresql_serialize_data_types_date]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;33;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;0;")
+add_test([=[sqlpp23_postgresql_serialize_data_types_text]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/postgresql/serialize/data_types/sqlpp23_postgresql_serialize_data_types_text")
+set_tests_properties([=[sqlpp23_postgresql_serialize_data_types_text]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;34;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;0;")
+add_test([=[sqlpp23_postgresql_serialize_data_types_time]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/postgresql/serialize/data_types/sqlpp23_postgresql_serialize_data_types_time")
+set_tests_properties([=[sqlpp23_postgresql_serialize_data_types_time]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;35;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;0;")
+add_test([=[sqlpp23_postgresql_serialize_data_types_timestamp]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/postgresql/serialize/data_types/sqlpp23_postgresql_serialize_data_types_timestamp")
+set_tests_properties([=[sqlpp23_postgresql_serialize_data_types_timestamp]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;36;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/postgresql/serialize/data_types/CMakeLists.txt;0;")

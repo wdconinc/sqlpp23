@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_basic_schema_qualified_table.dir/link.d CMakeFiles/sqlpp23_core_serialize_basic_schema_qualified_table.dir/schema_qualified_table.cpp.o -o sqlpp23_core_serialize_basic_schema_qualified_table

@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sqlpp23_core_serialize_aggregate_function_avg.dir/link.d"
+  "CMakeFiles/sqlpp23_core_serialize_aggregate_function_avg.dir/avg.cpp.o"
+  "CMakeFiles/sqlpp23_core_serialize_aggregate_function_avg.dir/avg.cpp.o.d"
+  "sqlpp23_core_serialize_aggregate_function_avg"
+  "sqlpp23_core_serialize_aggregate_function_avg.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/sqlpp23_core_serialize_aggregate_function_avg.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
