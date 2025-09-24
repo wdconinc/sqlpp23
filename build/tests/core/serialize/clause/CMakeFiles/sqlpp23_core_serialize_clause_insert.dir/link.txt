@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_clause_insert.dir/link.d CMakeFiles/sqlpp23_core_serialize_clause_insert.dir/insert.cpp.o -o sqlpp23_core_serialize_clause_insert

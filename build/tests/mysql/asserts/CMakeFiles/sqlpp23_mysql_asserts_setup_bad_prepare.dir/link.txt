@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_mysql_asserts_setup_bad_prepare.dir/link.d CMakeFiles/sqlpp23_mysql_asserts_setup_bad_prepare.dir/bad_prepare.cpp.o -o sqlpp23_mysql_asserts_setup_bad_prepare  /usr/lib/x86_64-linux-gnu/libmysqlclient.so

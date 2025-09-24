@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_data_type_timestamp.dir/link.d CMakeFiles/sqlpp23_core_serialize_data_type_timestamp.dir/timestamp.cpp.o -o sqlpp23_core_serialize_data_type_timestamp
