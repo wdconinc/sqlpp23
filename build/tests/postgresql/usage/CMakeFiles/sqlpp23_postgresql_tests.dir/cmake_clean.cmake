@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/link.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Basic.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Basic.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/BasicConstConfig.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/BasicConstConfig.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Blob.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Blob.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Connection.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Connection.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/ConnectionPool.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/ConnectionPool.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Date.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Date.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/DateTime.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/DateTime.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/InsertOnConflict.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/InsertOnConflict.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Returning.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Returning.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Select.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Select.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/TimeZone.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/TimeZone.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Transaction.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Transaction.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Type.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/Type.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/test_main.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/test_main.cpp.o.d"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/truncate.cpp.o"
+  "CMakeFiles/sqlpp23_postgresql_tests.dir/truncate.cpp.o.d"
+  "sqlpp23_postgresql_tests"
+  "sqlpp23_postgresql_tests.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/sqlpp23_postgresql_tests.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

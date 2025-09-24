@@ -1,0 +1,16 @@
+# CMake generated Testfile for 
+# Source directory: /home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function
+# Build directory: /home/runner/work/sqlpp23/sqlpp23/build/tests/core/constraints/aggregate_function
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[sqlpp23_core_constraints_query_avg]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/constraints/aggregate_function/sqlpp23_core_constraints_query_avg")
+set_tests_properties([=[sqlpp23_core_constraints_query_avg]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;32;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;0;")
+add_test([=[sqlpp23_core_constraints_query_count]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/constraints/aggregate_function/sqlpp23_core_constraints_query_count")
+set_tests_properties([=[sqlpp23_core_constraints_query_count]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;33;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;0;")
+add_test([=[sqlpp23_core_constraints_query_max]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/constraints/aggregate_function/sqlpp23_core_constraints_query_max")
+set_tests_properties([=[sqlpp23_core_constraints_query_max]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;34;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;0;")
+add_test([=[sqlpp23_core_constraints_query_min]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/constraints/aggregate_function/sqlpp23_core_constraints_query_min")
+set_tests_properties([=[sqlpp23_core_constraints_query_min]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;35;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;0;")
+add_test([=[sqlpp23_core_constraints_query_sum]=] "/home/runner/work/sqlpp23/sqlpp23/build/tests/core/constraints/aggregate_function/sqlpp23_core_constraints_query_sum")
+set_tests_properties([=[sqlpp23_core_constraints_query_sum]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;29;add_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;36;create_test;/home/runner/work/sqlpp23/sqlpp23/tests/core/constraints/aggregate_function/CMakeLists.txt;0;")

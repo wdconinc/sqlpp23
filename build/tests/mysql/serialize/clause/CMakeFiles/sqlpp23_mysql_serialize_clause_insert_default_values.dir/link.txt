@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_mysql_serialize_clause_insert_default_values.dir/link.d CMakeFiles/sqlpp23_mysql_serialize_clause_insert_default_values.dir/insert_default_values.cpp.o -o sqlpp23_mysql_serialize_clause_insert_default_values  /usr/lib/x86_64-linux-gnu/libmysqlclient.so

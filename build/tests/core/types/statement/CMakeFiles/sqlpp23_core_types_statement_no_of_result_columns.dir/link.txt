@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_types_statement_no_of_result_columns.dir/link.d CMakeFiles/sqlpp23_core_types_statement_no_of_result_columns.dir/no_of_result_columns.cpp.o -o sqlpp23_core_types_statement_no_of_result_columns

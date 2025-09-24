@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_postgresql_serialize_tests.dir/link.d CMakeFiles/sqlpp23_postgresql_serialize_tests.dir/test_main.cpp.o CMakeFiles/sqlpp23_postgresql_serialize_tests.dir/Float.cpp.o -o sqlpp23_postgresql_serialize_tests  /usr/lib/x86_64-linux-gnu/libpq.so

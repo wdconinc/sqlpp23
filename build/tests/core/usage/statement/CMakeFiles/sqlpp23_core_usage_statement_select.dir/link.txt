@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_usage_statement_select.dir/link.d CMakeFiles/sqlpp23_core_usage_statement_select.dir/select.cpp.o -o sqlpp23_core_usage_statement_select

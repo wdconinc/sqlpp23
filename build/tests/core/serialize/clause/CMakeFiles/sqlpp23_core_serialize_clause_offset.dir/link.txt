@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_core_serialize_clause_offset.dir/link.d CMakeFiles/sqlpp23_core_serialize_clause_offset.dir/offset.cpp.o -o sqlpp23_core_serialize_clause_offset

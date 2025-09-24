@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sqlpp23_postgresql_usage_statement_string.dir/link.d CMakeFiles/sqlpp23_postgresql_usage_statement_string.dir/string.cpp.o -o sqlpp23_postgresql_usage_statement_string  /usr/lib/x86_64-linux-gnu/libpq.so
