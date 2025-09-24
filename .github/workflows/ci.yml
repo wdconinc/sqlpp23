@@ -39,8 +39,6 @@ jobs:
             modules: { name: "With Modules", flag: "ON" }
           - compiler: { name: "GCC 12", cc: gcc-12, cxx: g++-12, apt: "gcc-12 g++-12" }
             modules: { name: "With Modules", flag: "ON" }
-          - compiler: { name: "Clang 16", cc: clang-16, cxx: clang++-16, apt: "clang-16" }
-            modules: { name: "With Modules", flag: "ON" }
           - compiler: { name: "Clang 17", cc: clang-17, cxx: clang++-17, apt: "clang-17" }
             modules: { name: "With Modules", flag: "ON" }
 
