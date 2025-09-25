@@ -29,6 +29,10 @@ jobs:
         modules:
           - { name: "Without Modules", flag: "OFF" }
           - { name: "With Modules", flag: "ON" }
+        # Exclude older compilers from modules testing as they don't support it yet
+        exclude:
+          - compiler: { name: "GCC 14", cc: gcc-14, cxx: g++-14, apt: "gcc-14 g++-14" }
+            modules: { name: "With Modules", flag: "ON" }
 
     name: ${{ matrix.compiler.name }} - ${{ matrix.modules.name }}
 
