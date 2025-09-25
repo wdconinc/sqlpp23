@@ -20,18 +20,18 @@ jobs:
       matrix:
         compiler:
           # GCC versions with potential C++ modules support
-          - { name: "GCC 14", cc: gcc-14, cxx: g++-14, apt: "gcc-14 g++-14" }
+          - { name: "GCC 14", cc: gcc-14, cxx: g++-14, apt: "gcc-14 g++-14", stdlib: "libstdc++" }
           # Clang versions with potential C++ modules support
-          - { name: "Clang 18", cc: clang-18, cxx: clang++-18, apt: "clang-18 libc++-18-dev" }
-          - { name: "Clang 19", cc: clang-19, cxx: clang++-19, apt: "clang-19 libc++-19-dev" }
-          - { name: "Clang 20", cc: clang-20, cxx: clang++-20, apt: "clang-20 libc++-20-dev" }
-          - { name: "Clang 21", cc: clang-21, cxx: clang++-21, apt: "clang-21 libc++-21-dev" }
+          - { name: "Clang 18", cc: clang-18, cxx: clang++-18, apt: "clang-18 libc++-18-dev", stdlib: "libc++" }
+          - { name: "Clang 19", cc: clang-19, cxx: clang++-19, apt: "clang-19 libc++-19-dev", stdlib: "libc++" }
+          - { name: "Clang 20", cc: clang-20, cxx: clang++-20, apt: "clang-20 libc++-20-dev", stdlib: "libc++" }
+          - { name: "Clang 21", cc: clang-21, cxx: clang++-21, apt: "clang-21 libc++-21-dev", stdlib: "libc++" }
         modules:
           - { name: "Without Modules", flag: "OFF" }
           - { name: "With Modules", flag: "ON" }
         # Exclude older compilers from modules testing as they don't support it yet
         exclude:
-          - compiler: { name: "GCC 14", cc: gcc-14, cxx: g++-14, apt: "gcc-14 g++-14" }
+          - compiler: { name: "GCC 14", cc: gcc-14, cxx: g++-14, apt: "gcc-14 g++-14", stdlib: "libstdc++" }
             modules: { name: "With Modules", flag: "ON" }
 
     name: ${{ matrix.compiler.name }} - ${{ matrix.modules.name }}
@@ -131,6 +131,7 @@ jobs:
         cmake -B ${{github.workspace}}/build \
           -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} \
           -DCMAKE_CXX_STANDARD=23 \
+          -DCMAKE_CXX_FLAGS=-stdlib=${{ matrix.compiler.stdlib }} \
           -DBUILD_TESTING=ON \
           -DBUILD_WITH_MODULES=${{ matrix.modules.flag }} \
           -DBUILD_MYSQL_CONNECTOR=ON \
