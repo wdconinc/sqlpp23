@@ -131,7 +131,7 @@ jobs:
         cmake -B ${{github.workspace}}/build \
           -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} \
           -DCMAKE_CXX_STANDARD=23 \
-          -DCMAKE_CXX_FLAGS=-stdlib=${{ matrix.compiler.stdlib }} \
+          -DCMAKE_CXX_FLAGS="-stdlib=${{ matrix.compiler.stdlib }}" \
           -DBUILD_TESTING=ON \
           -DBUILD_WITH_MODULES=${{ matrix.modules.flag }} \
           -DBUILD_MYSQL_CONNECTOR=ON \
