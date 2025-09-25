@@ -77,8 +77,11 @@ int main(int, char*[]) {
                        std::ranges::to<std::vector>();
     }
 
+    // Use pipe operator with zip_transform to create enumerate-like functionality
     for ([[maybe_unused]] const auto& [index, row] :
-         db(select(foo.id).from(foo)) | std::ranges::views::enumerate) {
+         db(select(foo.id).from(foo)) | std::views::zip_transform(
+             [](const auto& row, std::size_t idx) { return std::make_pair(idx, row); },
+             std::views::iota(0uz))) {
       // do something with index and row
     }
 
