@@ -20,10 +20,8 @@ jobs:
       matrix:
         compiler:
           # GCC versions with potential C++ modules support
-          - { name: "GCC 13", cc: gcc-13, cxx: g++-13, apt: "gcc-13 g++-13" }
           - { name: "GCC 14", cc: gcc-14, cxx: g++-14, apt: "gcc-14 g++-14" }
           # Clang versions with potential C++ modules support
-          - { name: "Clang 17", cc: clang-17, cxx: clang++-17, apt: "clang-17" }
           - { name: "Clang 18", cc: clang-18, cxx: clang++-18, apt: "clang-18" }
           - { name: "Clang 19", cc: clang-19, cxx: clang++-19, apt: "clang-19" }
           - { name: "Clang 20", cc: clang-20, cxx: clang++-20, apt: "clang-20" }
@@ -31,10 +29,6 @@ jobs:
         modules:
           - { name: "Without Modules", flag: "OFF" }
           - { name: "With Modules", flag: "ON" }
-        # Exclude older compilers from modules testing as they don't support it yet
-        exclude:
-          - compiler: { name: "Clang 17", cc: clang-17, cxx: clang++-17, apt: "clang-17" }
-            modules: { name: "With Modules", flag: "ON" }
 
     name: ${{ matrix.compiler.name }} - ${{ matrix.modules.name }}
 
@@ -73,7 +67,6 @@ jobs:
       run: |
         # Add LLVM repository for newer Clang versions
         wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | sudo tee /etc/apt/trusted.gpg.d/apt.llvm.org.asc
-        echo "deb http://apt.llvm.org/noble/ llvm-toolchain-noble-17 main" | sudo tee -a /etc/apt/sources.list  
         echo "deb http://apt.llvm.org/noble/ llvm-toolchain-noble-18 main" | sudo tee -a /etc/apt/sources.list
         echo "deb http://apt.llvm.org/noble/ llvm-toolchain-noble-19 main" | sudo tee -a /etc/apt/sources.list
         echo "deb http://apt.llvm.org/noble/ llvm-toolchain-noble-20 main" | sudo tee -a /etc/apt/sources.list
