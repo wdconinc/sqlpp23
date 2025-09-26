@@ -153,13 +153,17 @@ jobs:
       working-directory: ${{github.workspace}}/build
       run: |
         # Run core tests (these should work regardless of database connectivity)
-        ctest --test-dir tests/core --output-on-failure --parallel $(nproc) || true
+        ctest --test-dir tests/core --output-on-failure --parallel $(nproc) \
+          -E sqlpp23_core_serialize_data_type_float
+        ctest --test-dir tests/core --output-on-failure --parallel $(nproc) \
+          -R sqlpp23_core_serialize_data_type_float || echo "Core tests failed - may be due to known issues"
+        # FIXME Separate failing test for float serialization
 
     - name: Test Script Components
       working-directory: ${{github.workspace}}/build
       run: |
         # Run script tests
-        ctest --test-dir tests/scripts --output-on-failure --parallel $(nproc) || true
+        ctest --test-dir tests/scripts --output-on-failure --parallel $(nproc)
 
     - name: Test Database Connectivity (MySQL)
       working-directory: ${{github.workspace}}/build
@@ -187,4 +191,4 @@ jobs:
       working-directory: ${{github.workspace}}/build
       run: |
         # Run SQLite3 tests (should work without external services)
-        ctest --test-dir tests/sqlite3 --output-on-failure --parallel $(nproc) || true
+        ctest --test-dir tests/sqlite3 --output-on-failure --parallel $(nproc)
