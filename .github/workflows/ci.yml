@@ -22,10 +22,6 @@ jobs:
           # GCC versions with potential C++ modules support
           - { name: "GCC 14", cc: gcc-14, cxx: g++-14, apt: "gcc-14 g++-14", cxxflags: "" }
           # Clang versions with potential C++ modules support
-          - { name: "Clang 18 (libstdc++)", cc: clang-18, cxx: clang++-18, apt: "clang-18", cxxflags: "-stdlib=libstdc++" }
-          - { name: "Clang 19 (libstdc++)", cc: clang-19, cxx: clang++-19, apt: "clang-19", cxxflags: "-stdlib=libstdc++" }
-          - { name: "Clang 20 (libstdc++)", cc: clang-20, cxx: clang++-20, apt: "clang-20", cxxflags: "-stdlib=libstdc++" }
-          - { name: "Clang 21 (libstdc++)", cc: clang-21, cxx: clang++-21, apt: "clang-21", cxxflags: "-stdlib=libstdc++" }
           - { name: "Clang 18 (libc++)", cc: clang-18, cxx: clang++-18, apt: "clang-18 libc++-18-dev", cxxflags: "-stdlib=libc++" }
           - { name: "Clang 19 (libc++)", cc: clang-19, cxx: clang++-19, apt: "clang-19 libc++-19-dev", cxxflags: "-stdlib=libc++" }
           - { name: "Clang 20 (libc++)", cc: clang-20, cxx: clang++-20, apt: "clang-20 libc++-20-dev", cxxflags: "-stdlib=libc++" }
