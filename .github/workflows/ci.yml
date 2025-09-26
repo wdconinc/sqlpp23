@@ -52,7 +52,6 @@ jobs:
         image: postgres:16
         env:
           POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: sqlpp_postgresql
           POSTGRES_USER: postgres
         ports:
           - 5432:5432
@@ -115,7 +114,7 @@ jobs:
           sleep 2
         done
         # Create database and configure as expected by tests
-        PGPASSWORD=postgres psql -h localhost -U postgres -c "CREATE DATABASE IF NOT EXISTS sqlpp_postgresql;"
+        PGPASSWORD=postgres psql -h localhost -U postgres -c "CREATE DATABASE sqlpp_postgresql;"
         # Grant permissions to current user for the test expectations
         PGPASSWORD=postgres psql -h localhost -U postgres -c "CREATE USER $USER;"
         PGPASSWORD=postgres psql -h localhost -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE sqlpp_postgresql TO $USER;"
