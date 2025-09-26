@@ -115,7 +115,7 @@ jobs:
           sleep 2
         done
         # Create database and configure as expected by tests
-        PGPASSWORD=postgres createdb -h localhost -U postgres sqlpp_postgresql
+        PGPASSWORD=postgres psql -h localhost -U postgres -c "CREATE DATABASE IF NOT EXISTS sqlpp_postgresql;"
         # Grant permissions to current user for the test expectations
         PGPASSWORD=postgres psql -h localhost -U postgres -c "CREATE USER $USER;"
         PGPASSWORD=postgres psql -h localhost -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE sqlpp_postgresql TO $USER;"
