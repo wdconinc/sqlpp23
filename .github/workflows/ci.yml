@@ -117,6 +117,7 @@ jobs:
         PGPASSWORD=postgres psql -h localhost -U postgres -c "CREATE DATABASE sqlpp_postgresql;"
         # Grant permissions to current user for the test expectations
         PGPASSWORD=postgres psql -h localhost -U postgres -c "CREATE USER runner;"
+        PGPASSWORD=postgres psql -h localhost -U postgres -c "ALTER USER runner PASSWORD '';"
         PGPASSWORD=postgres psql -h localhost -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE sqlpp_postgresql TO runner;"
 
     - name: Configure CMake
