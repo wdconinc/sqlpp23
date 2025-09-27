@@ -77,8 +77,17 @@ int main(int, char*[]) {
                        std::ranges::to<std::vector>();
     }
 
+    // As of v21 libc++ does not support std::ranges::views::enumerate
+    // For details see: https://libcxx.llvm.org/Status/Cxx23.html
+#ifndef _LIBCPP_VERSION
     for ([[maybe_unused]] const auto& [index, row] :
          db(select(foo.id).from(foo)) | std::ranges::views::enumerate) {
+      // do something with index and row
+    }
+#endif
+    // We can use zip with iota to create enumerate-like functionality
+    for ([[maybe_unused]] const auto& [index, row] :
+         std::ranges::views::zip(std::views::iota(0uz), db(select(foo.id).from(foo)))) {
       // do something with index and row
     }
 
